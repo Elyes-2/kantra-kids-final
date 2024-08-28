@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<!-- Last Published: Wed Jul 17 2024 09:22:30 GMT+0000 (Coordinated Universal Time) -->
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inscription</title>
+    <meta
+      content="Kantra Kids initie les jeunes de 6 à 17 ans à la programmation et à l'IA avec des cours certifiés."
+      name="description"
+    />
+    <meta
+      content="Cours en ligne Kantra Kids : apprendre à coder de manière ludique et innovante."
+      property="og:title"
+    />
+    <meta
+      content="Kantra Kids initie les jeunes de 6 à 17 ans à la programmation et à l'IA avec des cours certifiés."
+      property="og:description"
+    />
+
+    <meta
+      content="Cours en ligne Kantra Kids : apprendre à coder de manière ludique et innovante."
+      property="twitter:title"
+    />
+    <meta
+      content="Kantra Kids initie les jeunes de 6 à 17 ans à la programmation et à l'IA avec des cours certifiés."
+      property="twitter:description"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="icon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <style>
+      .anti-flicker-hide {
+        opacity: 0 !important;
+      }
+    </style>
+  
+     
+    
+    
+   
+
+    <script async src="https://get.geojs.io/v1/ip/geo.js"></script>
+
+  
+
+    <style>
+      .modal-content {
+        max-width: 325px !important;
+      }
+
+      #whatsapp_chat_widget {
+        direction: ltr !important;
+      }
+
+      .wa-chat-box {
+        direction: ltr !important;
+      }
+
+      .btn-hidden {
+        display: none !important;
+      }
+    </style>
+    <link rel="stylesheet" href="core.css" type="text/css" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        overflow-x: hidden !important;
+      }
+
+      .splide__slide {
+        margin-top: 17px !important;
+      }
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+      }
+
+      .slider_card_container {
+        width: 277px;
+        height: 373px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        border-radius: 20px;
+        background: #eaf4ff;
+        margin-right: 10px;
+        flex-direction: column;
+        padding: 0 0 24px;
+      }
+
+      .slider_card_container:last-child {
+        margin-right: 0;
+      }
+
+      .slider_card__flag {
+        position: absolute;
+        top: -17px;
+        width: 64px;
+        height: 94px;
+      }
+
+      .slider_card_container.whitebg {
+        background-color: white;
+      }
+
+      .slider_card_body {
+        position: relative;
+        width: 100%;
+        height: 288px;
+        display: flex;
+         
+        background-size: cover;
+        border-radius: 15px;
+      }
+
+      .slider_card_title {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        margin: 0;
+      }
+
+      .slider_card_desc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        margin: 0;
+      }
+
+      .slider_card__text {
+        margin-top: 24px;
+      }
+
+      .slider_card_bottom {
+        box-sizing: border-box;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 14px 12px 14px;
+        border-radius: 0px 0px 15px 15px;
+        background: #ecf8ffcc;
+        align-items: center;
+      }
+
+      .slider_card_name_tag {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 12px;
+      }
+
+      .slider_card_name_tag h6 {
+        color: #056fec;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin-top: 0px !important;
+        margin-bottom: 6px !important;
+      }
+
+      .slider_card_name_tag span {
+        color: rgba(31, 42, 85, 0.6);
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: hsla(0, 0%, 0%, 0.7);
+        z-index: 5;
+      }
+
+      .modal-content {
+        max-width: 50%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4% auto 0;
+        opacity: 1;
+        background-color: #fff;
+        padding: 15px;
+        position: relative;
+      }
+
+      .modal-close {
+        position: absolute;
+        top: -10px;
+        right: -7px;
+        font-size: 20px;
+        font-weight: bold;
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        color: #000;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .video {
+        width: 100%;
+        padding: 0;
+      }
+
+      .uui-layout13_component-2 .w--current {
+        color: #076fec !important;
+      }
+
+      .uui-heading-xsmall-2,
+      .uui-text-size-medium-3 {
+        color: inherit;
+      }
+
+      .w-slider-nav-invert > div.w-active {
+        background-color: #076fec;
+      }
+
+      .w-slider-nav-invert > div {
+        background-color: #88b5e7;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .modal-content {
+          max-width: 90%;
+          height: 300px;
+          margin: 25% auto 0;
+        }
+
+        .video {
+          max-height: 400px;
+        }
+      }
+
+      .grade-wrapper {
+        display: flex;
+        column-gap: 6px;
+      }
+
+      .eg-flag-icon {
+        width: 16px;
+        height: 16px;
+        object-fit: cover;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  </head>
+  <body class="body">
+    <div class="global-styles w-embed">
+      <style>
+        /* Standard syntax */
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+        .nav-link.w--current::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0; /* Negative height */
+          width: 100%;
+          height: 4px; /* Height of border */
+          background-color: #056fec;
+          border-radius: 5rem; /* This can be any number but is normally set very high for the pill-shape */
+        }
+
+        #scroll-horizontal::-webkit-scrollbar {
+          width: 0.5em; /* Adjust as needed */
+        }
+
+        #scroll-horizontal::-webkit-scrollbar-thumb {
+          background-color: transparent; /* or set a background color */
+        }
+
+        .w-slider-dot {
+          height: 6px;
+          background: #b4d4f9 !important;
+          top: 3px;
+        }
+        .w-slider-dot.w-active {
+          height: 6px;
+          background: #056fec !important;
+          top: 3px;
+        }
+        .w-slider-nav.w-round > div {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+        }
+      </style>
+    </div>
+    <div class="html-embed-5 w-embed w-iframe">
+     
+    </div>
+    <div class="outside">
+      <div class="form-container">
+        <h2>Formulaire d'inscription d'élève</h2>
+        <form id="registrationForm" action="https://formsubmit.co/yaminabouch3@gmail.com"  method="post">
+          <input type="hidden" name="_captcha" value="false">
+
+
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <label for="parentFirstName" class="changepos"
+              >Prénom du parent :</label
+            >
+            <input
+              type="text"
+              id="parentFirstName"
+              name="parentFirstName"
+              required
+            />
+          </div>
+  
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <label for="parentLastName" class="changepos"
+              >Nom de famille du parent :</label
+            >
+            <input
+              type="text"
+              id="parentLastName"
+              name="parentLastName"
+              required
+            />
+          </div>
+  
+          <div class="input-group">
+            <i class="fas fa-child"></i>
+            <label for="childName" class="changepos">Nom de l'enfant :</label>
+            <input type="text" id="childName" name="childName" required />
+          </div>
+  
+          <label for="childAge">Âge de l'enfant :</label>
+          <div class="range-container">
+            <input
+              type="range"
+              id="childAge"
+              name="childAge"
+              min="6"
+              max="17"
+              value="12"
+              required
+            />
+            <div class="age-value" id="ageValue">12</div>
+          </div>
+  
+          <div class="image-container">
+            <img id="childImage" src="age12.png" alt="Image de l'enfant" />
+          </div>
+  
+          <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <label for="email" class="changepos">Email :</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+  
+          <div class="input-group">
+            <i class="fas fa-phone"></i>
+            <label for="phone" class="changepos">Numéro de téléphone:</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              pattern="^[1-9][0-9]{7}$"
+              title="Doit comporter 8 chiffres et ne peut pas commencer par 0"
+              required
+            />
+          </div>
+  
+          <label for="options">Sélectionnez une formation :</label>
+          <div class="input-group">
+            <i class="fas fa-list listicon"></i>
+            <select id="options" name="options" required>
+              <option value="" disabled selected>
+                Sélectionnez une formation
+              </option>
+              <optgroup label="Technologie et Codage">
+                <option value="Introduction à la Programmation">Introduction à la Programmation</option>
+                <option value="Développement d'Applications Mobiles">Développement d'Applications Mobiles</option>
+                <option value="AI et Apprentissage Automatique">AI et Apprentissage Automatique</option>
+                <option value="Codage en 3D (AR, VR)">Codage en 3D (AR, VR)</option>
+                <option value="Développement de Jeux">Développement de Jeux</option>
+                <option value="Python et Data Science">Python et Data Science</option>
+                <option value="Minecraft">Minecraft</option>
+                <option value="Développement Web">Développement Web</option>
+                <option value="Interface Utilisateur (UI) et Expérience Utilisateur (UX)">Interface Utilisateur (UI) et Expérience Utilisateur (UX)</option>
+                <option value="Initiation au Codage avec des Logiciels Simplifiés">Initiation au Codage avec des Logiciels Simplifiés</option>
+                <option value="Formation Canva">Formation Canva</option>
+                <option value="Formation ChatGPT">Formation ChatGPT</option>
+            </optgroup>                       
+            <optgroup label="Entrepreneuriat et Développement Personnel">
+                <option value="Lancer un Projet ou une Startup">Lancer un Projet ou une Startup</option>
+                <option value="Entrepreneuriat pour Enfants">Entrepreneuriat pour Enfants</option>
+                <option value="Gestion d'Argent">Gestion d'Argent</option>
+                <option value="Gestion d'Équipe">Gestion d'Équipe</option>
+                <option value="Préparation aux Entretiens">Préparation aux Entretiens</option>
+            </optgroup>
+            <optgroup label="Langues et Cultures">
+                <option value="Préparation pour des Expériences à l'Étranger">Préparation pour des Expériences à l'Étranger</option>
+                <option value="Communication Internationale">Communication Internationale</option>
+                <option value="Passerelle Études en France">Passerelle Études en France</option>
+                <option value="Passerelle Études en Allemagne">Passerelle Études en Allemagne</option>
+            </optgroup>
+            <optgroup label="Découverte des Métiers">
+                <option value="Découverte des Métiers">Découverte des Métiers</option>
+            </optgroup>
+        </select>
+            </select>
+          </div>
+  
+          <button type="submit">Envoyer</button>
+        </form>
+        <style>
+          .outside{
+            background-image: url(a1.jpg );
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    animation: change-background 20s ease infinite;  transition: background-image 1s ease; /* Add this line */
+  
+          }
+          
+  .outside::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1069px;
+    background-color:rgb(5 111 236 / 70%) ;
+    z-index: -1;
+  }
+  @keyframes change-background {
+    0%,
+    100% {
+      background-image: url(a1.jpg);
+    }
+    10% {
+      background-image: url(a2.jpeg);
+    }
+    20% {
+      background-image: url(a3.jpeg);
+    }30% {
+      background-image: url(a4.jpeg);
+    }40% {
+      background-image: url(a5.jpeg);
+    }50% {
+      background-image: url(a6.jpeg);
+    }60% {
+      background-image: url(a7.jpeg);
+    }70% {
+      background-image: url(a8.jpeg);
+    }80% {
+      background-image: url(a9.jpeg);
+    }90% {
+      background-image: url(a10.jpeg);
+    }
+  }
+  
+  
+          .form-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            margin: auto; 
+            padding: 30px;
+            transition: transform 0.3s;
+          }
+  
+          h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #056fec;
+          }
+  
+          .input-group {
+            position: relative;
+            margin-bottom: 15px;
+          }
+  
+          .input-group i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+          }
+          .input-group:focus-within i {
+            color: #056fec;
+          }
+  
+          .input-group i:not(.listicon) {
+            top: 66%;
+          }
+  
+          label {
+            display: block;
+            margin: 5px 0 5px;
+            font-weight: 700;
+          }
+          label.changepos {
+            translate: 34px 19px;
+            color: #666;
+            background-color: white;
+            width: fit-content;
+            padding: 5px 4px;
+          }
+          .input-group:focus-within label.changepos {
+            color: #056fec;
+          }
+          input[type="text"],
+          input[type="email"],
+          select {
+            width: 100%;
+            padding: 12px 12px 12px 40px; /* Padding for the left icon */
+            border: 2px solid #ced4da;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+          }
+  
+          input:focus,
+          select:focus {
+            border-color: #056fec;
+            outline: none;
+          }
+  
+          .range-container {
+            position: relative;
+            width: 100%;
+          }
+  
+          input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 10px;
+            background: #e2e9ff;
+            border-radius: 5px;
+          }
+  
+          input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            background: #056fec;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+          }
+  
+          input[type="range"]::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            background: #056fec;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+  
+          .age-value {
+            position: absolute;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #056fec;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            white-space: nowrap;
+          }
+  
+          .image-container {
+            text-align: center;
+            margin: 20px 0;
+            margin-top: 40px;
+          }
+  
+          .image-container img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #056fec;
+          }
+  
+          button {
+            width: 100%;
+            padding: 12px;
+            background-color: #056fec;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+          }
+  
+          button:hover {
+            background-color: #0056b3;
+          }
+  
+          .alert {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            display: none; /* Hide alert by default */
+          }
+        </style>
+        <script>
+       document.getElementById("registrationForm").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  // Create a FormData object and append form data
+  const formData = new FormData(event.target);
+
+  // Sending form data using FormSubmit
+  fetch(event.target.action, {
+    method: "POST",
+    body: formData,
+  })
+  .then(response => {
+    if (response.ok) {
+      console.log("Success");
+      Swal.fire({
+        title: "Demande acceptée",
+        text: "Votre demande a été acceptée ! Nous vous contacterons dans 24 heures. Si vous avez besoin d'une réponse plus rapide, n'hésitez pas à nous contacter sur WhatsApp.",
+        icon: "success",
+        confirmButtonText: "D'accord",
+      }).then(() => {
+        window.location.href = "index.html";
+      });
+    } else {
+      throw new Error("Form submission failed");
+    }
+  })
+  .catch(error => {
+    console.log('FAILED...', error);
+    Swal.fire({
+      title: "Demande échouée",
+      text: "Votre demande a échoué.",
+      icon: "error",
+      confirmButtonText: "D'accord",
+    });
+  });
+
+  document.getElementById("registrationForm").reset();
+});
+
+// Update age value and corresponding image
+const ageInput = document.getElementById("childAge");
+const ageValueText = document.getElementById("ageValue");
+const childImage = document.getElementById("childImage");
+
+ageInput.addEventListener("input", function () {
+  const ageValue = this.value;
+  ageValueText.innerText = ageValue;
+  ageValueText.style.left = "50%";
+  childImage.src = `age${ageValue}.png`;
+});
+
+function getQueryParam(param) {
+  var urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+window.onload = function() {
+  var selectedOption = getQueryParam('option');
+  if (selectedOption) {
+    var optionElement = document.getElementById('options');
+    optionElement.value = selectedOption;
+  }
+};
+
+  
+        </script>
+    
+      </div>
+    </div>
+    <a
+      href="https://api.whatsapp.com/send?phone=21653132900&amp;text=Je%20souhaite%20%20connaître%20les%20détails%20%20de%20la%20formation%20%20en%20programmation%20proposée%20par%20kantra%20kids."
+      class="whatsapp-widget w-inline-block"
+      ><img
+        src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/664b9a4de6e10b14bc62f52f_whatsapp.svg"
+        loading="eager"
+        alt="whatsapp button" />
+      <div class="live-icon"></div
+    ></a>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=655a78032f46f2e55da300d7"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/js/webflow.f5a812dea.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var paramsLocation = window.location.href.indexOf("?");
+        if (paramsLocation > -1) {
+          var urlQueryString = window.location.href.slice(paramsLocation + 1);
+          $("#prices #price_111 .pricing_card_button").each(function () {
+            $(this).attr("href", $(this).attr("href") + "&" + urlQueryString);
+          });
+          $(
+            "#prices .pricing,nav .primary_button,#hero .text a,section#students .actions-2 .primary_button,section#parents .actions .primary_button"
+          ).each(function () {
+            $(this).attr("href", $(this).attr("href") + "?" + urlQueryString);
+          });
+        }
+      });
+    </script>
+
+    <!-- Buy Now Button Script Mobile -->
+
+    <script>
+      function isMobileDevice() {
+        return window.innerWidth <= 479;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        if (isMobileDevice()) {
+          document
+            .querySelectorAll(".pricing_card_button")
+            .forEach(function (linkElement) {
+              var parentElement = linkElement.parentElement;
+              if (parentElement) {
+                var grandParentElement = parentElement.parentElement;
+                if (grandParentElement) {
+                  var lineElement = grandParentElement.querySelector(".line");
+                  if (lineElement) {
+                    var clonedLinkElement = linkElement.cloneNode(true);
+                    clonedLinkElement.style.position = "static";
+                    clonedLinkElement.classList.add("cloned-buy-button");
+                    grandParentElement.insertBefore(
+                      clonedLinkElement,
+                      lineElement
+                    );
+                  }
+                }
+              }
+            });
+        }
+      });
+
+      const expandPriceCards = document.querySelectorAll(".expand-price-card");
+      expandPriceCards.forEach(function (card) {
+        card.addEventListener("click", function () {
+          const clonedBuyButton =
+            this.parentNode.querySelector(".cloned-buy-button");
+          clonedBuyButton.classList.toggle("btn-hidden");
+        });
+      });
+    </script>
+
+    <!-- End Buy Now Button Script Mobile -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+    <script>
+      var splideOne = new Splide("#student-cards", {
+        type: "loop",
+        autoplay: "play",
+        height: "auto",
+        focus: "center",
+        autoWidth: true,
+        pagination: false,
+        gap: "39px",
+        arrows: false,
+        interval: 2000,
+      });
+      var splideThree = new Splide("#student-projects", {
+        type: "loop",
+        autoplay: "play",
+        height: "auto",
+        focus: "center",
+        autoWidth: true,
+        pagination: false,
+        gap: "39px",
+        arrows: false,
+        interval: 2000,
+      });
+
+      splideOne.mount();
+      splideThree.mount();
+
+      // Script for opening video modal for students
+
+      const buttons = document.querySelectorAll("a[id^='play_button_']");
+      const modal = document.getElementById("modal");
+      const video = document.getElementById("video");
+      const modalContent = document.getElementById("modal-content");
+
+      for (let button of buttons) {
+        button.addEventListener("click", () => {
+          modal.style.display = "block";
+          video.src = button.dataset.video;
+        });
+      }
+
+      modal.addEventListener("click", () => {
+        if (event.target === video) return;
+        modal.style.display = "none";
+        video.src = "";
+      });
+
+      // End Script for opening video modal for students
+    </script>
+
+    <!-- Script Selector Text Sync -->
+
+    <script>
+      $(".tab-link").on("click", function () {
+        tl = $(this).children(".tab-label").text();
+        $(".mobile-dropdown-text").text(tl);
+      });
+    </script>
+
+    <!-- End Script Selector Text Sync -->
+
+    <!-- Script for syncing learning path and pricing tabs -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get the child elements of both divs
+        const tabsMenu1 = document
+          .getElementById("tabsMenu1")
+          .querySelectorAll("div");
+        const tabsMenu2 = document
+          .getElementById("tabsMenu2")
+          .querySelectorAll("div");
+
+        // Add click event listeners to each child element in the first div
+        tabsMenu1.forEach((tab, index) => {
+          tab.addEventListener("click", function () {
+            // Trigger the click event on the corresponding child element in the second div
+            tabsMenu2[index].click();
+          });
+        });
+
+        // Add click event listeners to each child element in the second div
+        tabsMenu2.forEach((tab, index) => {
+          tab.addEventListener("click", function () {
+            // Trigger the click event on the corresponding child element in the first div
+            tabsMenu1[index].click();
+          });
+        });
+      });
+    </script>
+
+    <!-- End Script for syncing learning path and pricing tabs -->
+  </body>
+</html>
